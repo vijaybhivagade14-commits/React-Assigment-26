@@ -1,0 +1,112 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+/* Background */
+body {
+  background: linear-gradient(135deg, #667eea, #764ba2);
+  min-height: 100vh;
+}
+
+/* Title */
+.title {
+  text-align: center;
+  margin: 25px 0;
+  color: rgb(34, 32, 32);
+  font-size: 32px;
+  letter-spacing: 1px;
+}
+
+/* User Card */
+.user-card {
+  background: rgba(255, 255, 255, 0.9);
+  margin: 15px auto;
+  padding: 20px;
+  width: 50%;
+  border-radius: 12px;
+  backdrop-filter: blur(10px);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.user-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 12px 25px rgba(0,0,0,0.3);
+}
+
+.user-card h3 {
+  color: #333;
+}
+
+.user-card p {
+  color: #555;
+}
+
+/* Fruit Section */
+.fruit-container {
+  width: 60%;
+  margin: 50px auto;
+  padding: 25px;
+  background: rgba(255, 255, 255, 0.95);
+  border-radius: 15px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.25);
+}
+
+/* Fruit Item */
+.fruit-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 18px;
+  padding: 10px;
+  border-radius: 8px;
+  background: #f1f5f9;
+  transition: 0.3s;
+}
+
+.fruit-item:hover {
+  background: #e2e8f0;
+}
+
+/* Buttons */
+button {
+  margin: 5px;
+  padding: 6px 14px;
+  border: none;
+  background: linear-gradient(45deg, #3b82f6, #6366f1);
+  color: white;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+button:hover {
+  transform: scale(1.1);
+  background: linear-gradient(45deg, #2563eb, #4f46e5);
+}
+
+/* Quantity */
+.fruit-item span {
+  margin: 0 10px;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+/* Total Section */
+.total {
+  margin-top: 25px;
+  padding: 15px;
+  background: #1e293b;
+  color: white;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.total h2 {
+  margin: 5px 0;
+}
